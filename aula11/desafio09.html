@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        form > label > input[type=text]{
+            width: 350px;
+            text-align: center;
+        }
+
+        form > input {
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Nacionalidade</h1>
+        <label for="">
+            <input type="text" name="perso" id="iperso" placeholder="Qual Pais Voçê nasceu / Which country you were born in ">
+        </label>
+
+        <input type="button" value="Verificar" onclick="resultado()">
+    </form>
+    <div id="res"></div>
+
+    <script>
+        function resultado() {
+            var t1 = document.getElementById('iperso')
+            var pais = String(t1.value)
+            var resul = document.getElementById('res')
+            if (pais == 'brasil') { 
+                resul.innerText ='Voce é Brasileiro'
+            }else {
+                resul.innerText = 'Voce é Estrangeiro'
+                }
+            }    
+
+        
+        
+    </script>
+</body>
+</html>
