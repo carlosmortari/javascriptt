@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #e8e6e7;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: 15px 60px;
+    background-color: #1d1d1f;
+}
+
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+a > img.logo {
+    width: 50px;
+}
+
+.navegation ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+ ul > li a {
+    color: #888;
+    font-weight: 600;
+    padding-bottom:4px ;
+    transition: all 0.5s ease-in-out;
+}
+
+ul > li a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+a.check {
+    color: white;
+    border-bottom:1px solid white ;
+}
+
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8rem;
+}
+
+.main-text img {
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+.main-text h3 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.main-text p {
+margin-bottom: 1.5rem;
+}
+
+.main-text h6 {
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .btn {
+    padding: 10px 25px ;
+    background: #0071e3;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+
+.main-text .btn:hover{
+    opacity: .85;
+}
+
+.main-text .text h5 {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-text .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-text .content span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+.main-text .content span:hover {
+    opacity: .80;
+}
+
+#green {
+    background: #384937;
+}
+
+#red {
+    background: rgba(255, 0, 0, 0.808);
+}
+
+#blue {
+    background: rgb(59, 144, 194);
+}
+
+#black {
+    background: black;
+}
+
+#pink{
+    background: pink;
+}
+
+#white {
+    background: white;
+}
+
+.main-img {
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.main-img img {
+    width:380px;
+    transform: rotate(-7deg);
+
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #445c42;
+    clip-path: circle(800px at right 1000px);
+}
