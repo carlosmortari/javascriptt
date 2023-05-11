@@ -12,14 +12,14 @@ body, html{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: rgb(61, 136, 233);
+    
 }
 
 header {
    text-align: center; 
-   margin-top: 40px;
+   margin-top: 20px;
    
 }
 
@@ -28,19 +28,49 @@ header h1 {
 }
 
 section {
-    width: 100vw;
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: start;
     flex-direction: column;
+    padding-top: 20px;
     margin-top: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.384);
     width: 450px;
-    height: 450px;
+    height: 350px;
     
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+input[type=button] {
+    width: 30%;
+    height: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+div#res{
+    margin-top: 20px;
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+    
+}
+
+img {
+    width: 130px;
+    display: flex;
+    margin: auto;
+    clip-path: circle();
+
 }
 
 footer {
