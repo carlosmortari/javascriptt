@@ -1,0 +1,25 @@
+header, main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button#on:hover {
+    background-color: rgb(235, 235, 37);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+button#off:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
