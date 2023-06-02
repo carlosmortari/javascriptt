@@ -1,0 +1,93 @@
+@media screen and (max-width:600px) {
+    
+    header ul {
+        display: none;
+    }
+
+    section#section1 {
+        flex-direction: column;
+        
+    }
+
+    div#text {
+        margin-top: 20%;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div#text a {
+        width: 65%;
+        margin: auto;
+    }
+
+    #number{
+        flex-direction: column;
+        height: 470px;
+    }
+
+    div#mulher{
+        height:500px ;
+        top: 0px;
+    }
+
+    #number {
+        width: 60%;
+    }
+
+    .num {
+        text-align: center;
+        
+    }
+
+    .num p {
+        font-size: 2.5rem;
+    }
+      
+    .linha {
+        display: none;
+    }
+
+    section#secao2{
+        height: 350px;
+        
+    }
+    .section2-box {
+        display: none;
+        
+    }
+
+    section#secao3{
+        height: 800px;
+    }
+
+    #medico {
+        flex-direction: column-reverse;
+    }
+
+    #doctorimg {
+        width: 360px;
+    }
+
+    .sobre p {
+        width: 300px;
+        margin: auto;
+    }
+
+    .sobre h2 {
+        text-align: center;
+    }
+
+    #homem {
+        display: none;
+    }
+
+    .onde {
+        margin-bottom:130px;
+    }
+    #secao4 {
+        height: 250px;
+    }
+
+    
+}

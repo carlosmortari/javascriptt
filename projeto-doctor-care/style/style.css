@@ -25,13 +25,39 @@ body {
 }
 
 header {
+    position: fixed;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 1.2rem;
-    background-color:#dce9e273;
+    width: 100%;
     
+}
+
+header.rolagem {
+    background-color: #00856F;
+    z-index: 10000;
+}
+
+header.rolagem ul li {
+    color: white;
+}
+
+header.rolagem ul li:hover {
+    color: #212529;
+}
+
+header.rolagem a#logo {
+    color: white;
+}
+
+header.rolagem a#logo span {
+    color: white;
+}
+
+header.rolagem nav ul li#genda {
+    color: white;
 }
 
 
@@ -126,6 +152,8 @@ div#text a i {
 
 
 div#mulher {
+    top: 60px;
+    position: relative;
     display: flex;
     
 }
@@ -238,6 +266,129 @@ section#secao2 div > h5{
 }
 
 
+#secao3{
+    position: relative;
+    bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 715px;
+    background-color: var(--brand-beige);
+    
+}
+
+#doctorimg{
+    background-image: url(../img/doctor.png);
+    width: 400px;
+    height: 350px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 360px;
+
+}
+
+.sobre p {
+    width: 540px;
+}
+
+.sobre h5{
+    color: #00856F;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    
+}
+
+#medico{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#secao4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    
+}
+
+#contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.onde{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.onde a {
+    text-decoration: none;
+    color: white;
+    background-color: #056959;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.onde h2 {
+    font-size: 2rem;
+   
+}
+
+#homem {
+    background-image: url(../img/man.png);
+    height:379px;
+    width: 520px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 240px;
+    background-color: #00856F;
+
+}
 
 
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+footer div h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+footer div span {
+    font-weight: 600;
+}
+
+footer div h6 {
+    color: rgb(223, 211, 211);
+}
+
+#emoji {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
