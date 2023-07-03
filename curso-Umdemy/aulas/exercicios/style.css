@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    gap: 20px;
+}
+
+div#res {
+    margin-top: 20px;
+}
