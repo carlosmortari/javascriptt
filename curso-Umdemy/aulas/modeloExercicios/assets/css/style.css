@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(138, 39, 39, 0.658);
+    height: 100vh;
+    width: 100vw;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 10px ;
+}
+
+#conteiner h1 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#conteiner p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input {
+    font-size: 24px;
+    height: 45px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid  rgba(138, 39, 39, 0.658);
+}
+
+form button {
+    border: none;
+    background-color:  rgba(138, 39, 39, 0.658);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+form button:hover{
+    background-color:  rgba(71, 21, 21, 0.747);
+}
+
+
+form {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+}
+
+#demonstracao {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+#demonstracao h4 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demonstracao h5 {
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#res {
+    background-color: black;
+    color: rgb(236, 236, 236);
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}

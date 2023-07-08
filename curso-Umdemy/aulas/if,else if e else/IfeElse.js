@@ -1,4 +1,4 @@
-const hora = 1;
+/*const hora = 1;
 
 if(hora >= 5 && hora <12){
     console.log('Bom Dia !!')
@@ -9,4 +9,13 @@ if(hora >= 5 && hora <12){
 }else if (hora >= 0 && hora <=4){
     console.log('Boa Madrugada');
 
+}
+*/
+
+const numero = 0
+
+if(numero >= 0){
+    console.log('Sim o numero e maior ou igual a zero');
+}else{
+    console.log('');
 }
