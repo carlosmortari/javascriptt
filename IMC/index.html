@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="alert-error">
+        Digite somente Números
+    </div>
+
+    <div class="conteiner">
+        <main class="card">
+            <!--Formulario-->
+            <form action="">
+                <h1 class="title">Cálculo de IMC</h1>
+                <!--input para captar o valor-->
+                <div class="input-wrapper">
+                    <label for="peso">Peso (Kg)</label>
+                    <input placeholder="60" type="text" name="peso" id="peso">
+                </div>
+                <!--input para captar o valor-->
+                <div class="input-wrapper">
+                    <label for="altura">Altura (cm)</label>
+                    <input placeholder="165" type="text" name="altura" id="altura">
+                </div>
+                <!--botao para CALCULAR-->
+                <button type="submit">
+                    Calcular IMC
+                    <img src="assets/arrow.svg" alt="seta apontando para a direita">
+                </button>
+
+            </form>
+        </main>
+    </div>
+
+    <div class="modal-wrapper ">
+        <div class="modal card">
+            <h2 class="title">
+
+                <button class="close">
+                    <img src="assets/close.svg" alt="imagem para fechar o popup">
+                </button>
+
+                <span>Seu IMC é de 28</span>
+            </h2>
+        </div>
+    </div>
+
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
