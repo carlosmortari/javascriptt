@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validando CPF...</title>
+</head>
+<body>
+    <form id="cpfForm">
+        <label for="cpfInput">CPF:</label>
+        <input type="text" name="cpfInput" id="cpfInput" maxlength="11" pattern="[0-9]{11}" required>
+        <button type="submit" >Validar CPF</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="cpf.js"></script>
+</body>
+</html>
