@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <img src="img/Gym-amico.svg" alt="">
+    <div id="container">
+        <h1>CALCULADORA - IMC</h1>
+        <form id="formulario">
+            <label for="peso">
+                <span>Peso em Kg</span>
+                <input type="text" name="peso" id="peso" placeholder="Seu peso" autocomplete="off">
+            </label>
+            <label for="altura">
+                <span>Altura em metros</span>
+                <input type="text" name="altura" id="altura" placeholder="Sua altura" autocomplete="off">
+            </label>
+            <button>Calcular</button>
+            <div id="imc" class="hide">
+                <div>
+                    <p class="cor"></p>
+                    <p>Seu IMC</p>
+                </div>
+                <p id="descricao"></p>
+            </div>
+            <a href="#">Mais informçoes sobre IMC</a>
+        </form>
+    </div>
+
+    <script src="js/imc.js"></script>
+</body>
+</html>
