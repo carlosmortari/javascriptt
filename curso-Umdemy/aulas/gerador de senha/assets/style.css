@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 64, 146);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+section {
+    background-color: white;
+    flex-direction: column;
+    height: 65%;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section input {
+    margin-bottom: 10px;
+}
+
+.senha-gerada {
+    font-size: 2em;
+    color: rgb(25, 74, 88);
+    margin:40px 0 ;
+}
+
+input[type='checkbox']{
+    width: 25px;
+    height: 25px;
+    
+}
+
+button {
+    display: block;
+    margin: 20px 0;
+    font-size: 1em;
+    padding: 10px;
+    border-radius:10px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(119, 147, 236);
+}
+
+
+
